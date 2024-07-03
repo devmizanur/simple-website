@@ -3,10 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>simple website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>card website</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .card{
+      width: 300px;
+      margin: 10px;
+      box-sizing: border-box;
+      box-shadow: 1px 2px 4px black;
+    }
+    .img-style{
+      width: 100%;
+    }
+    .card-body{
+      padding: 5px;
+      background-color: #761f8c;
+    }
+    .card-body .card-title{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    }
+    .card-body .card-description{
+      text-align: justify;
+      line-height: 1.5;
+      color: white;
+    }
+    .card:hover{
+      box-shadow: 6px 12px 10px white;
+      transition: .4s;
+    }
+    .card-container{
+      box-sizing: border-box;
+      display: flex;
+      background-color: cadetblue;
+      padding: 20px 0;
+      justify-content: center;
+      align-items: center;
+
+    }
+  </style>
 </head>
 <body>
+<div class="card-container">
+
+  <div class="card">
+    <img class="img-style" src="./forwebimgoffice.jpg" alt="sohag">
+   <div class="card-body">
+     <div class="card-title">
+     web development
+     </div>
+     <div class="card-description">
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam maxime excepturi eveniet ipsa labore voluptate dolores voluptates, libero quisquam fuga, fugiat, veniam ad? Amet hic, quae sapiente quaerat cum voluptatem distinctio at mollitia ipsa ipsum, ex beatae facere. Sint quidem in aliquid non ullam deserunt quod commodi obcaecati veniam nostrum quae dolorem dicta beatae fuga praesentium, tempora tenetur sapiente placeat!</p>
+     </div>
+   </div>
+     </div>
+     <div class="card">
+      <img class="img-style" src="./forwebimgoffice.jpg" alt="sohag">
+     <div class="card-body">
+       <div class="card-title">
+       python programming
+       </div>
+       <div class="card-description">
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam maxime excepturi eveniet ipsa labore voluptate dolores voluptates, libero quisquam fuga, fugiat, veniam ad? Amet hic, quae sapiente quaerat cum voluptatem distinctio at mollitia ipsa ipsum, ex beatae facere. Sint quidem in aliquid non ullam deserunt quod commodi obcaecati veniam nostrum quae dolorem dicta beatae fuga praesentium, tempora tenetur sapiente placeat!</p>
+       </div>
+     </div>
+       </div>
+       <div class="card">
+        <img class="img-style" src="./forwebimgoffice.jpg" alt="sohag">
+       <div class="card-body">
+         <div class="card-title">
+          mern developer
+         </div>
+         <div class="card-description">
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam maxime excepturi eveniet ipsa labore voluptate dolores voluptates, libero quisquam fuga, fugiat, veniam ad? Amet hic, quae sapiente quaerat cum voluptatem distinctio at mollitia ipsa ipsum, ex beatae facere. Sint quidem in aliquid non ullam deserunt quod commodi obcaecati veniam nostrum quae dolorem dicta beatae fuga praesentium, tempora tenetur sapiente placeat!</p>
+         </div>
+       </div>
+         </div>
+</div>
   
 </body>
 </html>
